@@ -6,6 +6,15 @@ Welcome to the **SIEM Assistant**! This is a modern, interactive Security Inform
 > **Status**: 🚧 Currently under active development.  
 > **Affiliation**: This project is being built as part of my **College Minor Project**.
 
+## 📖 About the Project
+
+Our project focuses on developing a **conversational SIEM assistant** that enables security analysts to perform context-aware security investigations using natural language. The system processes user queries across multiple conversational steps and converts them into executable open-source SIEM queries using **Elasticsearch DSL** and **Kibana Query Language (KQL)**.
+
+Key capabilities include:
+- **Cross-Question Investigation**: Results from earlier queries can be reused and refined in subsequent analysis.
+- **Automated Threat Reporting**: Raw security logs are analyzed and summarized into professional, human-readable reports.
+- **Improved Efficiency**: Simplifies SIEM investigations by reducing the need for manual query writing.
+
 ---
 
 ## 📊 Features
