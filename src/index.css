@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(21, 26, 31, 0.5); 
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2933; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22C55E; 
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-[#151A1F]/80 backdrop-blur-xl border border-siem-border shadow-siem-card;
+  }
+
+  .animate-in {
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .fade-in { animation-name: fadeIn; }
+  .slide-in-from-bottom-4 { animation-name: slideInBottom; }
+  .slide-in-from-right { animation-name: slideInRight; }
+  .duration-300 { animation-duration: 300ms; }
+  .duration-500 { animation-duration: 500ms; }
+  .duration-700 { animation-duration: 700ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .fill-mode-both { animation-fill-mode: both; }
+
+  .animate-blink {
+    animation: blink 1.5s step-start infinite;
+  }
+
+  .shadow-soft-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideInBottom {
+  from { opacity: 0; transform: translateY(1rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
