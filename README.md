@@ -62,6 +62,14 @@ To run this project locally:
 
 ---
 
+## 📸 Demo
+<img width="1600" height="702" alt="image" src="https://github.com/user-attachments/assets/df91eb0c-0165-48cb-a7c1-6cdce12fb518" />
+<img width="1600" height="692" alt="image" src="https://github.com/user-attachments/assets/1875ec86-a91e-4901-9d4f-01333a29d703" />
+<img width="1600" height="706" alt="image" src="https://github.com/user-attachments/assets/60d74a40-b79c-4bb2-ab18-3d0d51e167b9" />
+
+
+
+
 ### 🙌 Contributing
 Feel free to open issues or pull requests. Since this is a learning project, I'd love any feedback or suggestions!
 
